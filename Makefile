@@ -10,5 +10,5 @@ prepare:
 
 publish:
 	git push --all
-	GOPROXY=proxy.golang.org go list -m github.com/joshburnsxyz/strpad
+	GOPROXY=proxy.golang.org go list -m github.com/joshburnsxyz/strpad@v0.1.0
 
