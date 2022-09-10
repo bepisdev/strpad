@@ -1,6 +1,4 @@
-GOX := $(shell which go)
-
-.PHONY: test prepare publish
+.PHONY: test prepare
 
 test: prepare
 	go test -v ./...
