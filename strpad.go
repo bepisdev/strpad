@@ -22,18 +22,18 @@ func PadRight(inpstr string) string {
 
 // Pad with N spaces to both sides
 func PadN(inpstr string, N int)  string {
-    _nspaces := strings.Repeat(" ")
+    _nspaces := strings.Repeat(" ", N)
     return fmt.Sptrintf("%s%s%s", _nspaces, inpstr, _nspaces)
 }
 
 // Pad with N spaces to the left
 func PadNLeft(inpstr string, N int)  string {
-    _nspaces := strings.Repeat(" ")
+    _nspaces := strings.Repeat(" ", N)
     return fmt.Sptrintf("%s%s", _nspaces, inpstr)
 }
 
 // Pad with N spaces to the right
 func PadNRight(inpstr string, N int)  string {
-    _nspaces := strings.Repeat(" ")
+    _nspaces := strings.Repeat(" ", N)
     return fmt.Sptrintf("%s%s", inpstr, _nspaces)
 }
