@@ -22,3 +22,24 @@ func TestPadRight(t *testing.T) {
 		t.Errorf("PadLeft(\"test\") = %s; want \"test \"", ans)
 	}
 }
+
+func TestPadN(t *testing.T) {
+	ans := PadN("test", 2)
+	if ans != "  test  " {
+		t.Errorf("Pad(\"test\") = %s; want \"  test  \"", ans)
+	}
+}
+
+func TestPadNLeft(t *testing.T) {
+	ans := PadNLeft("test", 2)
+	if ans != "  test" {
+		t.Errorf("Pad(\"test\") = %s; want \"  test\"", ans)
+	}
+}
+
+func TestPadNRight(t *testing.T) {
+	ans := PadN("test", 2)
+	if ans != "test  " {
+		t.Errorf("Pad(\"test\") = %s; want \"test  \"", ans)
+	}
+}
