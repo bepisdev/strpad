@@ -38,7 +38,7 @@ func TestPadNLeft(t *testing.T) {
 }
 
 func TestPadNRight(t *testing.T) {
-	ans := PadN("test", 2)
+	ans := PadNRight("test", 2)
 	if ans != "test  " {
 		t.Errorf("Pad(\"test\") = %s; want \"test  \"", ans)
 	}
