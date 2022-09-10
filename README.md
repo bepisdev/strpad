@@ -20,7 +20,8 @@ func main() {
 The `Pad()` function can be substitued for `PadLeft()` or `PadRight()` using the
 identical API to pad the left or right side of a string without the other.
 
-> TODO: Publish link to godocs page
+The complete API documentation can be found on
+[pkg.go.dev](https://pkg.go.dev/github.com/joshburnsxyz/strpad)
 
 ## Installation
 
