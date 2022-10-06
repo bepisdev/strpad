@@ -20,9 +20,9 @@ func main() {
 The `Pad()` function can be swapped out for `PadLeft()` or `PadRight()` using
 the identical API to pad the left or right side of a string without the other.
 
-There are also functions that follow the `PadN()` naming convention
-(`PadNLeft()`, `PadNRight()`). These functions take an extra integer as a param
-to indicate the amount of spaces to be padded onto the string.
+> There are also other functions for padding that follow this naming convention.
+
+- `PadSymbol` and `PadNSymbol` functions, take an extra param as a string, and use that to pad the input string.
 
 ```go
 
@@ -35,6 +35,10 @@ func main() {
     myPaddedString := strpad.PadN("Hello, world.", 2)
     fmt.Println(myPaddedString)
     // "Hello, world." becomes "  Hello, world.  "
+
+    symbolPaddedStr := strpad.PadSymbol("Hello, world.", "**")
+    fmt.Println(symbolPaddedStr)
+    // "Hello, world." becomes "**Hello, world.**"
 }
 
 ```
