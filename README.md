@@ -7,7 +7,7 @@ String padding for Go.
 ```go
 import (
     "fmt"
-    "github.com/joshburnsxyz/strpad"
+    "github.com/bepisdev/strpad"
 )
 
 func main() {
@@ -28,7 +28,7 @@ the identical API to pad the left or right side of a string without the other.
 
 import (
     "fmt"
-    "github.com/joshburnsxyz/strpad"
+    "github.com/bepisdev/strpad"
 )
 
 func main() {
@@ -44,12 +44,12 @@ func main() {
 ```
 
 The complete API documentation can be found on
-[pkg.go.dev](https://pkg.go.dev/github.com/joshburnsxyz/strpad)
+[pkg.go.dev](https://pkg.go.dev/github.com/bepisdev/strpad)
 
 ## Installation
 
 ```
-go get github.com/joshburnsxyz/strpad
+go get github.com/bepisdev/strpad
 ```
 
 ## License
